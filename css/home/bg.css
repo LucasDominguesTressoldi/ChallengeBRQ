@@ -1,0 +1,27 @@
+body {
+  background-image: url(../../assets/cars-bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.square {
+  background-color: var(--gray);
+  height: 100vh;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+
+.square.top {
+  right: -40%;
+  top: -50%;
+  transform: rotate(135deg);
+}
+
+.square.bottom {
+  bottom: -50%;
+  right: -40%;
+  transform: rotate(-45deg);
+}

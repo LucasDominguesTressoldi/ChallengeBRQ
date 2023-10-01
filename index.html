@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Challenge BRQ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Days+One&family=Montserrat:wght@100;300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/root.css">
+  <link rel="stylesheet" href="css/home/bg.css">
+  <link rel="stylesheet" href="css/home/content/bg.css">
+  <link rel="stylesheet" href="css/home/content/header.css">
+  <link rel="stylesheet" href="css/home/content/main.css">
+  <link rel="stylesheet" href="css/home/content/footer.css">
+  <link rel="stylesheet" href="css/home/login/black-bg.css">
+  <link rel="stylesheet" href="css/home/login/bg.css">
+  <link rel="stylesheet" href="css/home/login/content.css">
+  <link rel="stylesheet" href="css/home/specifications/black-bg.css">
+  <link rel="stylesheet" href="css/home/specifications/bg.css">
+  <link rel="stylesheet" href="css/home/specifications/search-bar.css">
+  <link rel="stylesheet" href="css/home/specifications/content.css">
+  <link rel="stylesheet" href="css/responsiviness/home.css">
+</head>
+
+<body>
+  <div class="square top"></div>
+  <div class="square bottom"></div>
+
+  <div class="main-container">
+    <div class="content-container">
+      <div class="header">
+        <img class="header-logo" src="assets/logo.svg" alt="EasyCarro logo">
+        <div class="header-content-container">
+          <div class="navbar">
+            <p class="navbar-links selected">Home</p>
+            <p class="navbar-links">Especificações</p>
+            <p class="navbar-links">sobre Nós</p>
+            <p class="navbar-links">Fale Conosco</p>
+          </div>
+          <div class="social-container">
+            <img class="social-item" src="assets/facebook-icon.svg" alt="Facebook ícone">
+            <img class="social-item" src="assets/instagram-icon.svg" alt="Instagram ícone">
+            <img class="social-item" src="assets/twitter-icon.svg" alt="Twitter ícone">
+          </div>
+          <button class="login-button">Entrar</button>
+        </div>
+      </div>
+
+      <div class="main-content">
+        <div class="title-subtitle">
+          <h1 class="title">Alugue o Seu Veículo Perfeito</h1>
+          <h2 class="subtitle">Escreva abaixo o veículo desejado. Escreva modelo, o intuíto de usar o carro ou até se é
+            para família ou não. Aqui você encontrará o veículo perfeito!</h2>
+          <div class="search-input">
+            <input class="chat-input" placeholder="Qual a sua necessidade?"></input>
+            <button class="search-button">
+              <img class="search-arrow" src="assets/arrow-button.svg"
+                alt="Um sinal de maior que representando uma flecha para iniciar a pesquisa">
+            </button>
+          </div>
+        </div>
+        <img class="main-img" src="assets/main-car.svg" alt="Um carro branco à esquerda da página">
+      </div>
+
+      <div class="footer">
+        <div class="circles-container">
+          <div class="circle"></div>
+          <div class="circle filled"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+        <div class="arrows-container">
+          <div class="arrow">
+            <img class="left-arrow" src="assets/arrow-button.svg"
+              alt="Um sinal de maior representando uma seta para mudar de opção">
+          </div>
+          <div class="arrow">
+            <img class="right-arrow" src="assets/arrow-button.svg"
+              alt="Um sinal de maior representando uma seta para mudar de opção">
+          </div>
+        </div>
+        <div class="example-cars-container">
+          <div class="car-circle-bg">
+            <img src="assets/example-car1.svg"
+              alt="Um carro cinza escuro dentro de um círculo como se fosse para escolher">
+          </div>
+          <div class="car-circle-bg chosen">
+            <img src="assets/example-car3.svg" alt="Um carro cinza dentro de um círculo como se fosse para escolher">
+          </div>
+          <div class="car-circle-bg">
+            <img src="assets/example-car2.svg" alt="Um carro branco dentro de um círculo como se fosse para escolher">
+          </div>
+        </div>
+        <img class="chatbot closed" src="assets/chatbot-icon.svg"
+          alt="Ícone de um robo representando um assistente automático">
+        <div class="animated-chatbot-box hidden">
+          <img class="chatbot-logo" src="assets/chatbot-icon.svg"
+            alt="Ícone de um robo representando um assistente automático">
+          <img class="close-button" src="assets/close-icon.svg"
+            alt="Um x representando um botão para fechar a caixa de diálogo aberta">
+          <div class="chatbot-content">
+            <p class="chatbot-title">Olá, eu sou o Rendal!</p>
+            <p class="chatbot-subtitle">Seja Bem vindo!</p>
+            <p class="chatbot-question">Deseja entar em contato com um atendente?</p>
+            <button class="chatbot-button yes">SIM</button>
+            <button class="chatbot-button no">NÃO</button>
+            <div class="chatbot-input-container">
+              <input class="chatbot-input" placeholder="Você pode digitar ou falar...">
+              <img class="chatbot-mic" src="assets/mic-icon.svg"
+                alt="Um microfone para ser pressionado e permitir pesquisa por voz">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="login-container invisible">
+      <div class="login-bg">
+        <img class="login-close-icon" src="assets/close-icon.svg"
+          alt="Um x representando um ícone para fechar a janela">
+        <p class="login-title">Criar Conta</p>
+        <div class="login-icons">
+          <img class="login-facebook-icon" src="assets/google-icon.svg" alt="Ícone do Google">
+          <img class="login-google-icon" src="assets/login-facebook-icon.svg" alt="Ícone do Facebook">
+        </div>
+        <p class="login-div">- OU -</p>
+        <input type="text" class="login-name" placeholder="Nome Completo">
+        <input type="text" class="login-email" placeholder="Email">
+        <input type="text" class="login-psw" placeholder="Senha">
+        <img class="eye" src="assets/eye.svg" alt="Um olho com um risco na diagonal representando um ">
+        <button class="login-button-signup">Criar Conta</button>
+        <p class="login-signin">Já tem uma conta? <span>Entrar</span></p>
+      </div>
+    </div>
+
+    <div class="specifications-container specifications-invisible">
+      <div class="specifications-bg">
+        <img class="specifications-close-icon" src="assets/close-icon.svg"
+          alt="Um x representando um ícone para fechar a janela">
+        <div class="specifications-input-container">
+          <div class="brain-input-container">
+            <img src="assets/brain-icon.svg"
+              alt="Ícone de um cérebro com alguns pontos e linhas desenhados internamente representando uma ligação neuronal e/ou um circuito de fios">
+            <input class="specifications-input"
+              placeholder="Preciso de um carro para viajar durante 4 horas com a família">
+          </div>
+          <button class="specifications-search-button">
+            <img class="specifications-search-arrow" src="assets/arrow-button.svg"
+              alt="Um sinal de maior que representando uma flecha para iniciar a pesquisa">
+          </button>
+        </div>
+        <div class="specifications-content-container">
+          <div class="specifications-circle-bg">
+            <img class="specifications-car-img" src="assets/example-car1.svg"
+              alt="Um carro cinza escuro sombreado com uma sombra embaixo">
+          </div>
+          <div class="specifications-content-bg">
+            <div class="specifications-content-title">
+              SPIN 2023 1.8L LS AT
+            </div>
+            <div class="specifications-content-subtitle">Cinza Chumbo - Cor Sólida</div>
+          </div>
+          <div class="specifications-cards">
+            <div class="specifications-left-card">
+              <div class="car-with-people">
+                <img class="specifications-left-card-icons" src="assets/car-with-people-icon.svg"
+                  alt="Carro, visto de lado, com duas pessoas dentro">
+                <p class="specifications-texts">Classe do veículo: Confortável</p>
+              </div>
+              <div class="meter">
+                <img class="specifications-left-card-icons" src="assets/meter-icon.svg" alt="Cronômetro">
+                <p class="specifications-texts">Inclui quilometragem ilimitada</p>
+              </div>
+              <div class="fuel">
+                <img class="specifications-left-card-icons" src="assets/fuel-icon.svg" alt="Gasolina">
+                <p class="specifications-texts">Política de combustível: Mesma quantidade</p>
+              </div>
+              <div class="warranty">
+                <img class="specifications-left-card-icons" src="assets/doc-icon.svg" alt="Documento">
+                <p class="specifications-texts">Seguro CDW</p>
+              </div>
+              <div class="cancel-container cancel">
+                <img class="specifications-left-card-icons" src="assets/cancel-icon.svg" alt="Círculo com X no meio">
+                <p class="specifications-texts">Cancelamento gratuito</p>
+              </div>
+            </div>
+            <div class="specifications-right-card">
+              <div class="right-card-div">
+                <div class="avatar-icon">
+                  <img class="right-card-icon" src="assets/avatar-icon.svg"
+                    alt="Uma pessoa em forma de avatar desenhada">
+                  <p class="right-card-number">7</p>
+                </div>
+                <div class="car-door-icon">
+                  <img class="right-card-icon" src="assets/car-door-icon.svg" alt="Porta de carro">
+                  <p class="right-card-number">4</p>
+                </div>
+                <div class="suitcase-icon">
+                  <img class="right-card-icon" src="assets/suitcase-icon.svg" alt="Mala de viagem">
+                  <p class="right-card-number">5</p>
+                </div>
+                <div class="settings-icon">
+                  <img class="right-card-icon" src="assets/settings-icon.svg" alt="Duas engrenagens se ajudando">
+                  <p class="right-card-number">A</p>
+                </div>
+                <div class="snow-icon">
+                  <img class="right-card-icon" src="assets/snow-icon.svg" alt="Floco de neve">
+                  <p class="right-card-number">A/C</p>
+                </div>
+              </div>
+              <div class="right-card-div price-like">
+                <div class="total-price">
+                  <p class="total-text">Total</p>
+                  <p class="price">R$ 250</p>
+                </div>
+                <img class="heart" src="assets/heart-icon.svg" alt="Coração transparente com bordas cinza claro">
+              </div>
+              <div class="right-card-div footer-card">
+                <p class="see-details">Ver mais detalhes</p>
+                <button class="rent">ALUGAR</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="specifications-input-container">
+          <div class="brain-input-container">
+            <img src="assets/brain-icon.svg"
+              alt="Ícone de um cérebro com alguns pontos e linhas desenhados internamente representando uma ligação neuronal e/ou um circuito de fios">
+            <input class="specifications-input" placeholder="Qual a sua necessidade?">
+          </div>
+          <button class="specifications-search-button">
+            <img class="specifications-search-arrow" src="assets/arrow-button.svg"
+              alt="Um sinal de maior que representando uma flecha para iniciar a pesquisa">
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/js/index.js"></script>
+  <script src="/js/chatbot.js"></script>
+  <script src="/js/login.js"></script>
+  <script src="/js/specifications.js"></script>
+</body>
+
+</html>

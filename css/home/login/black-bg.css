@@ -1,0 +1,14 @@
+.login-container {
+  align-items: center;
+  background-color: var(--light-black);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  z-index: 5;
+}
+
+.invisible {
+  display: none;
+}

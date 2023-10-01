@@ -1,0 +1,190 @@
+.specifications-content-container {
+  align-items: center;
+  background-color: var(--gray);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 80%;
+}
+
+.specifications-circle-bg {
+  align-items: center;
+  background-color: var(--light-gray);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  margin: 20px 0;
+  width: 200px;
+}
+
+.specifications-car-img {
+  height: 200px;
+  width: 300px;
+}
+
+.specifications-content-bg {
+  align-items: center;
+  background-color: var(--light-gray);
+  border-radius: 50px;
+  color: var(--medium-gray);
+  display: flex;
+  flex-direction: column;
+  font-size: 40px;
+  font-weight: bold;
+  height: auto;
+  padding: 10px 0;
+  width: 50%;
+}
+
+.specifications-content-subtitle {
+  font-size: 32px;
+}
+
+.specifications-cards {
+  align-items: center;
+  color: var(--light-gray);
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  margin: 40px 0;
+  width: 85%;
+}
+
+.specifications-left-card {
+  align-items: flex-start;
+  background-color: var(--medium-gray);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  position: relative;
+  width: 40%;
+}
+
+.specifications-left-card-icons {
+  height: 30px;
+  margin: 10px 10px;
+  width: 30px;
+}
+
+.specifications-texts {
+  color: var(--white);
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.car-with-people,
+.meter,
+.fuel,
+.warranty,
+.cancel-container {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.cancel {
+  bottom: 15px;
+  flex-wrap: wrap;
+  position: absolute;
+  right: 0;
+  width: 250px;
+}
+
+.specifications-right-card {
+  background-color: var(--medium-gray);
+  border-radius: 30px;
+  height: 100%;
+  width: 40%;
+}
+
+.right-card-div {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 25%;
+  width: 100%;
+}
+
+.right-card-icon {
+  height: 30px;
+  margin: 5px 15px;
+  width: 30px;
+}
+
+.right-card-number {
+  color: var(--white);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.avatar-icon,
+.car-door-icon,
+.suitcase-icon,
+.settings-icon,
+.snow-icon {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.price-like {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 25px;
+}
+
+.total-price {
+  color: var(--white);
+}
+
+.total-text {
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.price {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.heart:hover {
+  cursor: pointer;
+  opacity: 80%;
+}
+
+.footer-card {
+  align-items: center;
+  color: var(--white);
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.rent {
+  background-color: var(--dark-gray);
+  border: none;
+  border-radius: 50px;
+  color: var(--white);
+  font-size: 16px;
+  font-weight: bold;
+  height: 50px;
+  width: 150px;
+}
+
+.rent:hover {
+  cursor: pointer;
+  opacity: 80%;
+}
+
+.see-details:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  opacity: 80%;
+}

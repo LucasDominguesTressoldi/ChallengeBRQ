@@ -1,0 +1,16 @@
+:root {
+  --black: #000000;
+  --bold: bold;
+  --blue: #6565F5;
+  --gray: #9D9D9D;
+  --dark-gray: #2C2C2C;
+  --light-black: rgba(0, 0, 0, 0.5);
+  --light-gray: #868686;
+  --medium-gray: #595959;
+  --shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  --white: #FFFFFF;
+}
+
+body {
+  font-family: "Montserrat", monospace;
+}
