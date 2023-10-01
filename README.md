@@ -6,4 +6,4 @@
 
 💻 These parts were made to represent other sections of the website, such as the customer search tab, the chatbot 🤖 and the login button.
 
-🔗 Access the website here: link
+🔗 Access the website here: https://lucasdominguestressoldi.github.io/ChallengeBRQ/
